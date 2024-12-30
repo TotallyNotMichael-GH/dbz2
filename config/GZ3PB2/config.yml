@@ -1,0 +1,9 @@
+# See config.example.yml for documentation.
+object_base: orig/GZ3PB2
+object: sys/main.dol
+hash: 7bb350aad91245e7f4284fe0d4592dbbb375da07
+symbols: config/GZ3PB2/symbols.txt
+splits: config/GZ3PB2/splits.txt
+# Change this to match the linker verison.
+# See config.example.yml for a list.
+mw_comment_version: 11
