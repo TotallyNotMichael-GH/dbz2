@@ -13,6 +13,45 @@ Sections:
 	.sdata2     type:rodata align:16
 	.sbss2      type:bss align:32
 
+fn_80207A08.c:
+	.text       start:0x80207A08 end:0x80207AD4
+
+fn_80207AD4.c:
+	.text       start:0x80207AD4 end:0x80207C98
+
+fn_80207C98.c:
+	.text       start:0x80207C98 end:0x80207EA8
+
+fn_80207EA8.c:
+	.text       start:0x80207EA8 end:0x8020800C
+
+fn_8020800C.c:
+	.text       start:0x8020800C end:0x80208020
+
+fn_80208020.c:
+	.text       start:0x80208020 end:0x80208198
+
+fn_80208198.c:
+	.text       start:0x80208198 end:0x80208204
+
+fn_80208204.c:
+	.text       start:0x80208204 end:0x80208210
+
+fn_80208210.c:
+	.text       start:0x80208210 end:0x80208268
+
+fn_80208268.c:
+	.text       start:0x80208268 end:0x8020827C
+
+fn_8020827C.c:
+	.text       start:0x8020827C end:0x8020829C
+
+fn_8020829C.c:
+	.text       start:0x8020829C end:0x802082BC
+
+fn_802082BC.c:
+	.text       start:0x802082BC end:0x802082CC
+
 fn_802082CC.c:
 	.text       start:0x802082CC end:0x802082D4
 
