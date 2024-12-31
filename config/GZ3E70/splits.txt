@@ -12,3 +12,87 @@ Sections:
 	.sbss       type:bss align:16
 	.sdata2     type:rodata align:16
 	.sbss2      type:bss align:32
+
+fn_802082CC.c:
+	.text       start:0x802082CC end:0x802082D4
+
+fn_802082D4.c:
+	.text       start:0x802082D4 end:0x802082DC
+
+fn_802082DC.c:
+	.text       start:0x802082DC end:0x802082EC
+
+fn_802082EC.c:
+	.text       start:0x802082EC end:0x802083A0
+
+fn_802083A0.c:
+	.text       start:0x802083A0 end:0x8020844C
+
+fn_8020844C.c:
+	.text       start:0x8020844C end:0x802085A0
+
+fn_802085A0.c:
+	.text       start:0x802085A0 end:0x802085B0
+
+fn_802085B0.c:
+	.text       start:0x802085B0 end:0x8020860C
+
+fn_8020860C.c:
+	.text       start:0x8020860C end:0x8020895C
+
+fn_8020895C.c:
+	.text       start:0x8020895C end:0x80208A28
+
+fn_80208A28.c:
+	.text       start:0x80208A28 end:0x80208B04
+
+fn_80208B04.c:
+	.text       start:0x80208B04 end:0x80208C7C
+
+fn_80208C7C.c:
+	.text       start:0x80208C7C end:0x80208CD4
+
+fn_80208CD4.c:
+	.text       start:0x80208CD4 end:0x80208D48
+
+fn_80208D48.c:
+	.text       start:0x80208D48 end:0x80208EE8
+
+fn_80208EE8.c:
+	.text       start:0x80208EE8 end:0x802090E8
+
+fn_802090E8.c:
+	.text       start:0x802090E8 end:0x802091B8
+
+fn_802091B8.c:
+	.text       start:0x802091B8 end:0x802098A4
+
+fn_802098A4.c:
+	.text       start:0x802098A4 end:0x80209938
+
+fn_80209938.c:
+	.text       start:0x80209938 end:0x80209A58
+
+fn_80209A58.c:
+	.text       start:0x80209A58 end:0x80209ACC
+
+fn_80209ACC.c:
+	.text       start:0x80209ACC end:0x80209AEC
+
+fn_80209AEC.c:
+	.text       start:0x80209AEC end:0x80209B04
+
+fn_80209B04.c:
+	.text       start:0x80209B04 end:0x80209B1C
+
+fn_80209B1C.c:
+	.text       start:0x80209B1C end:0x80209B30
+
+fn_80209B30.c:
+	.text       start:0x80209B30 end:0x80209C38
+
+fn_80209C38.c:
+	.text       start:0x80209C38 end:0x80209DA4
+
+fn_80209DA4.c:
+	.text       start:0x80209DA4 end:0x80209F1C
