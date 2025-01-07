@@ -72,11 +72,22 @@ libraries/os/src/__ppc_eabi_init.c:
 	.init       start:0x800054EC end:0x80005544
 	.text       start:0x80176764 end:0x801767F8
 
+libraries/dvd/src/dvdlow.c:
+	.text       start:0x80176C68 end:0x80177AAC
+	.bss        start:0x805C0770 end:0x805C0800
+
+libraries/dvd/src/dvdfs.c:
+	.text       start:0x80177AE4 end:0x80177B1C
+	.sbss       start:0x80661D28 end:0x80661D48
+
 libraries/dvd/src/dvd.c:
 	.text       start:0x801790B8 end:0x8017A540
 	.bss        start:0x805C0840 end:0x805C08B0
 	.sdata      start:0x80661050 end:0x80661058
-	.sbss       start:0x80661D40 end:0x80661D90
+	.sbss       start:0x80661D48 end:0x80661D90
+
+libraries/dvd/src/dvderror.c:
+	.text       start:0x8017AD38 end:0x8017AED0
 
 libraries/pad/src/Pad.c:
 	.text       start:0x8017EABC end:0x8017EB38
