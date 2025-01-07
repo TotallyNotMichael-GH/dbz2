@@ -71,3 +71,13 @@ libraries/os/src/OSTime.c:
 libraries/os/src/__ppc_eabi_init.c:
 	.init       start:0x800054EC end:0x80005544
 	.text       start:0x80176764 end:0x801767F8
+
+libraries/dvd/src/dvd.c:
+	.text       start:0x801790B8 end:0x8017A540
+	.bss        start:0x805C0840 end:0x805C08B0
+	.sdata      start:0x80661050 end:0x80661058
+	.sbss       start:0x80661D40 end:0x80661D90
+
+libraries/pad/src/Pad.c:
+	.text       start:0x8017EABC end:0x8017EB38
+	.sbss       start:0x80661E40 end:0x80661E48
