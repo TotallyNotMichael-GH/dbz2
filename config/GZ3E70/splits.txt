@@ -13,143 +13,61 @@ Sections:
 	.sdata2     type:rodata align:16
 	.sbss2      type:bss align:32
 
-__dec2num.c:
-	.text       start:0x8015EE90 end:0x8015FF10
+libraries/os/src/OSAlarm.c:
+	.text       start:0x8017006C end:0x80170728
+	.data       start:0x802C80A8 end:0x802C80B8
+	.sbss       start:0x80661C40 end:0x80661C48
 
-__sformatteer.c:
-	.text       start:0x8016598C end:0x80166338
+libraries/os/src/OSArena.c:
+	.text       start:0x80170E38 end:0x80170E58
+	.sdata      start:0x80661010 end:0x80661014
+	.sbss       start:0x80661C58 end:0x80661C60
 
-__strtold.c:
-	.text       start:0x80166D18 end:0x80167D24
+libraries/os/src/OSAudioSystem.c:
+	.text       start:0x80170E84 end:0x80171118
+	.data       start:0x802C8450 end:0x802C84D0
 
-__kernel_rem_pio2.c:
-	.text       start:0x80169EC0 end:0x8016AD14
+libraries/os/src/OSCache.c:
+	.text       start:0x80171118 end:0x8017157C
 
-OSTime.c:
-	.text       start:0x80176340 end:0x80176358
+libraries/os/src/OSContext.c:
+	.text       start:0x8017157C end:0x80171DEC
 
-__PADDisableRecalibration.c:
-	.text       start:0x8017EABC end:0x8017EB38
+libraries/os/src/OSError.c:
+	.text       start:0x80171DEC end:0x80172498
+	.bss        start:0x805BFCD0 end:0x805BFD14
+	.sbss       start:0x80661C7C end:0x80661C90
 
-fn_80207A08.c:
-	.text       start:0x80207A08 end:0x80207AD4
+libraries/os/src/OSInterrupt.c:
+	.text       start:0x8017310C end:0x80173978
 
-fn_80207AD4.c:
-	.text       start:0x80207AD4 end:0x80207C98
+libraries/os/src/OSMemory.c:
+	.text       start:0x801739CC end:0x80173C68
 
-fn_80207C98.c:
-	.text       start:0x80207C98 end:0x80207EA8
+libraries/os/src/OSReset.c:
+	.text       start:0x80173D5C end:0x801741E0
+	.sbss       start:0x80661C98 end:0x80661CA4
 
-fn_80207EA8.c:
-	.text       start:0x80207EA8 end:0x8020800C
+libraries/os/src/OSResetSW.c:
+	.text       start:0x801741E0 end:0x801742D4
 
-fn_8020800C.c:
-	.text       start:0x8020800C end:0x80208020
+libraries/os/src/OSRtc.c:
+	.text       start:0x801746E4 end:0x80174FE8
+	.bss        start:0x805BFD20 end:0x805BFD74
 
-fn_80208020.c:
-	.text       start:0x80208020 end:0x80208198
+libraries/os/src/OSSync.c:
+	.text       start:0x80174FE8 end:0x8017506C
 
-fn_80208198.c:
-	.text       start:0x80208198 end:0x80208204
+libraries/os/src/OSThread.c:
+	.text       start:0x80175070 end:0x80176340
+	.sbss       start:0x80661CC8 end:0x80661CD4
 
-fn_80208204.c:
-	.text       start:0x80208204 end:0x80208210
+libraries/os/src/__start.c:
+	.sbss       start:0x80661CD8 end:0x80661CE0
 
-fn_80208210.c:
-	.text       start:0x80208210 end:0x80208268
+libraries/os/src/OSTime.c:
+	.text       start:0x80176340 end:0x801763C4
 
-fn_80208268.c:
-	.text       start:0x80208268 end:0x8020827C
-
-fn_8020827C.c:
-	.text       start:0x8020827C end:0x8020829C
-
-fn_8020829C.c:
-	.text       start:0x8020829C end:0x802082BC
-
-fn_802082BC.c:
-	.text       start:0x802082BC end:0x802082CC
-
-fn_802082CC.c:
-	.text       start:0x802082CC end:0x802082D4
-
-fn_802082D4.c:
-	.text       start:0x802082D4 end:0x802082DC
-
-fn_802082DC.c:
-	.text       start:0x802082DC end:0x802082EC
-
-fn_802082EC.c:
-	.text       start:0x802082EC end:0x802083A0
-
-fn_802083A0.c:
-	.text       start:0x802083A0 end:0x8020844C
-
-fn_8020844C.c:
-	.text       start:0x8020844C end:0x802085A0
-
-fn_802085A0.c:
-	.text       start:0x802085A0 end:0x802085B0
-
-fn_802085B0.c:
-	.text       start:0x802085B0 end:0x8020860C
-
-fn_8020860C.c:
-	.text       start:0x8020860C end:0x8020895C
-
-fn_8020895C.c:
-	.text       start:0x8020895C end:0x80208A28
-
-fn_80208A28.c:
-	.text       start:0x80208A28 end:0x80208B04
-
-fn_80208B04.c:
-	.text       start:0x80208B04 end:0x80208C7C
-
-fn_80208C7C.c:
-	.text       start:0x80208C7C end:0x80208CD4
-
-fn_80208CD4.c:
-	.text       start:0x80208CD4 end:0x80208D48
-
-fn_80208D48.c:
-	.text       start:0x80208D48 end:0x80208EE8
-
-fn_80208EE8.c:
-	.text       start:0x80208EE8 end:0x802090E8
-
-fn_802090E8.c:
-	.text       start:0x802090E8 end:0x802091B8
-
-fn_802091B8.c:
-	.text       start:0x802091B8 end:0x802098A4
-
-fn_802098A4.c:
-	.text       start:0x802098A4 end:0x80209938
-
-fn_80209938.c:
-	.text       start:0x80209938 end:0x80209A58
-
-fn_80209A58.c:
-	.text       start:0x80209A58 end:0x80209ACC
-
-fn_80209ACC.c:
-	.text       start:0x80209ACC end:0x80209AEC
-
-fn_80209AEC.c:
-	.text       start:0x80209AEC end:0x80209B04
-
-fn_80209B04.c:
-	.text       start:0x80209B04 end:0x80209B1C
-
-fn_80209B1C.c:
-	.text       start:0x80209B1C end:0x80209B30
-
-fn_80209B30.c:
-	.text       start:0x80209B30 end:0x80209C38
-
-fn_80209C38.c:
-	.text       start:0x80209C38 end:0x80209DA4
-
-fn_80209DA4.c:
-	.text       start:0x80209DA4 end:0x80209F1C
+libraries/os/src/__ppc_eabi_init.c:
+	.init       start:0x800054EC end:0x80005544
+	.text       start:0x80176764 end:0x801767F8
