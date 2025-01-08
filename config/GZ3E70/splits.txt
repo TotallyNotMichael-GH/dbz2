@@ -13,6 +13,13 @@ Sections:
 	.sdata2     type:rodata align:16
 	.sbss2      type:bss align:32
 
+libraries/base/src/PPCArch.c:
+	.text       start:0x8016F394 end:0x8016F4B4
+
+libraries/db/src/db.c:
+	.text       start:0x8016F4B4 end:0x8016F550
+	.sbss       start:0x80661C00 end:0x80661C08
+
 libraries/os/src/OSAlarm.c:
 	.text       start:0x8017006C end:0x80170728
 	.data       start:0x802C80A8 end:0x802C80B8
@@ -80,15 +87,28 @@ libraries/dvd/src/dvdfs.c:
 	.text       start:0x80177AE4 end:0x80177B1C
 	.sbss       start:0x80661D28 end:0x80661D48
 
+libraries/dvddeth/src/dvdeth.c:
+	.text       start:0x801783BC end:0x80178494
+
 libraries/dvd/src/dvd.c:
 	.text       start:0x801790B8 end:0x8017A540
 	.bss        start:0x805C0840 end:0x805C08B0
 	.sdata      start:0x80661050 end:0x80661058
 	.sbss       start:0x80661D48 end:0x80661D90
 
+libraries/dvd/src/dvdqueue.c:
+	.text       start:0x8017AB40 end:0x8017ACD8
+	.bss        start:0x805C08D8 end:0x805C08F8
+
 libraries/dvd/src/dvderror.c:
 	.text       start:0x8017AD38 end:0x8017AED0
+
+libraries/dvd/src/fstload.c:
+	.text       start:0x8017AFF8 end:0x8017B238
 
 libraries/pad/src/Pad.c:
 	.text       start:0x8017EABC end:0x8017EB38
 	.sbss       start:0x80661E40 end:0x80661E48
+
+libraries/amcstubs/src/AmcExi2Stubs.c:
+	.text       start:0x80196D04 end:0x80196D0C
